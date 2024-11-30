@@ -60,7 +60,7 @@ function validateInputs(firstname, lastname, email, psw, psw1) {
         return false;
     }
     if (psw !== psw1) {
-        alert("Passwords do not match");
+        alert(" RE-Passwords do not match");
         return false;
     }
     return true; 
@@ -190,14 +190,24 @@ async function updatedata(id){
    let mydata = await  fetch(`http://localhost:4000/product/${id}`);
    let redata = await mydata.json();
    let sendata = `
-    <form>
-    <input type="text" value="${redata.id}" id="id1" readonly><br>
-    <input type="text" value="${redata.imageurl}" id="imageurl1"><br>
-    <input type="text" value="${redata.pname}" id="pname1"><br>
-    <input type="text" value="${redata.bname}" id="bname1"><br>
-    <input type="text" value="${redata.pprice}" id="pprice1"><br>
-    <input  type="submit" onclick = "finalupdate('${redata.id}')">
-    </form>
+  
+    
+  <form  style="position: absolute; top: 100px; left: 700px; z-index: 10; background-color: pink;display: block; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <label for="image" style="display: block; margin-bottom: 5px; font-weight: bold;">Enter Image Url</label>
+    <input type="text" placeholder="enter image url here" value="${redata.imageurl}" id="imageurl1" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <label for="product" style="display: block; margin-bottom: 5px; font-weight: bold;">Product Name</label>
+    <input type="text" placeholder="Enter product name" value="${redata.pname}" id="pname1" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <label for="brand" style="display: block; margin-bottom: 5px; font-weight: bold;">Brand Name</label>
+    <input type="text" placeholder="Enter Brand name" value="${redata.bname}" id="bname1" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <label for="price" style="display: block; margin-bottom: 5px; font-weight: bold;">Product Price</label>
+    <input type="text" placeholder="Enter the product price"value="${redata.pprice}" id="pprice1" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <button onclick = "finalupdate('${redata.id}')" style="background-color: #28a745; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">update data</button>
+    <button onclick="hideForm();" style="background-color: white; color:red; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">Close</button>
+</form>
 
 
    `
