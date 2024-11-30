@@ -1,0 +1,132 @@
+{
+  "user": [
+    {
+      "first name": "Praveen",
+      "Last name": "Choudhary",
+      "email": "praveen@gmail.com",
+      "password": "1234",
+      "id": "782b"
+    },
+    {
+      "id": "9396",
+      "firstname": "praveen",
+      "lastname": "choudhary",
+      "email": "pc852180@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "product": [
+    {
+      "imageurl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRcGBIvDnF2vXfoXA0KQ60axnR8hRuvvs-QT0Zw-FKf2HfGA1pd9_GbDQv45UHGQ_t_3LNfp84gJpKceS-NMl5saM3V5ITR9FkQ6vKLtWFa0mx3JDnXQV83",
+      "pname": "shoes",
+      "bname": "bata",
+      "pprice": "999",
+      "id": "1"
+    },
+    {
+      "imageurl": "https://images.unsplash.com/photo-1521774971864-62e842046145?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNob2V8ZW58MHx8MHx8fDA%3D",
+      "pname": "shoes",
+      "bname": "adidas",
+      "pprice": 2000,
+      "id": "2"
+    },
+    {
+      "imageurl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKhgaMMNho8z9ANexZALcYVfMZU3eUKW11Nvd-ez6Mth3sJ05V6dtP_v5tBXRkEH6y4fmpKaKtHQRFucgNTq-IedC7xowu_GxJjEBrpw9z7vOi6N4jcE0w",
+      "pname": "shoes",
+      "bname": "adidas",
+      "pprice": "999",
+      "id": "3"
+    },
+    {
+      "imageurl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXxlbnwwfHwwfHx8MA%3D%3D",
+      "pname": "shoes",
+      "bname": "nike",
+      "pprice": "899",
+      "id": "4"
+    },
+    {
+      "id": "7",
+      "imageurl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKhgaMMNho8z9ANexZALcYVfMZU3eUKW11Nvd-ez6Mth3sJ05V6dtP_v5tBXRkEH6y4fmpKaKtHQRFucgNTq-IedC7xowu_GxJjEBrpw9z7vOi6N4jcE0w",
+      "pname": "shoes",
+      "bname": "nike",
+      "pprice": 999
+    },
+    {
+      "id": "11",
+      "imageurl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKhgaMMNho8z9ANexZALcYVfMZU3eUKW11Nvd-ez6Mth3sJ05V6dtP_v5tBXRkEH6y4fmpKaKtHQRFucgNTq-IedC7xowu_GxJjEBrpw9z7vOi6N4jcE0w",
+      "pname": "shoes",
+      "bname": "nike",
+      "pprice": 999
+    },
+    {
+      "id": "12",
+      "imageurl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXxlbnwwfHwwfHx8MA%3D%3D",
+      "pname": "shoes",
+      "bname": "nike",
+      "pprice": 999
+    },
+    {
+      "id": "13",
+      "imageurl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRcGBIvDnF2vXfoXA0KQ60axnR8hRuvvs-QT0Zw-FKf2HfGA1pd9_GbDQv45UHGQ_t_3LNfp84gJpKceS-NMl5saM3V5ITR9FkQ6vKLtWFa0mx3JDnXQV83",
+      "pname": "shoes",
+      "bname": "nike",
+      "pprice": 999
+    },
+    {
+      "id": "14",
+      "imageurl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3bdf52f5-1615-4bdf-9936-355332055c21/JORDAN+TATUM+2+PF.png",
+      "pname": "shoes",
+      "bname": "nike",
+      "pprice": 999
+    },
+    {
+      "id": "15",
+      "imageurl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKhgaMMNho8z9ANexZALcYVfMZU3eUKW11Nvd-ez6Mth3sJ05V6dtP_v5tBXRkEH6y4fmpKaKtHQRFucgNTq-IedC7xowu_GxJjEBrpw9z7vOi6N4jcE0w",
+      "pname": "shoes",
+      "bname": "nike",
+      "pprice": 999
+    },
+    {
+      "id": "16",
+      "imageurl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c20afd60-b230-4815-bfd2-6768c875f6cd/AIR+FORCE+1+%2707.png",
+      "pname": "shoes",
+      "bname": "nike",
+      "pprice": 999
+    },
+    {
+      "id": "a923",
+      "imageurl": "https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=612x612&w=0&k=20&c=A3w_a9q3Gz-tWkQL6K00xu7UHdN5LLZefzPDp-wNkSU=",
+      "pname": "walking shoes",
+      "bname": "Zappos",
+      "pprice": 1300
+    },
+    {
+      "id": "1af6",
+      "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ-WQDPA3VuspVnZWpyVujlFIpgq5GwYhCWg&s",
+      "pname": "trainer shoes",
+      "bname": "nike",
+      "pprice": 2500
+    },
+    {
+      "id": "4785",
+      "imageurl": "https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=612x612&w=0&k=20&c=A3w_a9q3Gz-tWkQL6K00xu7UHdN5LLZefzPDp-wNkSU=",
+      "pname": "trainer shoes",
+      "bname": "Zappos",
+      "pprice": "1000"
+    },
+    {
+      "id": "9963",
+      "imageurl": "https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=612x612&w=0&k=20&c=A3w_a9q3Gz-tWkQL6K00xu7UHdN5LLZefzPDp-wNkSU=",
+      "pname": "walking shoes",
+      "bname": "nike",
+      "pprice": "2220"
+    },
+    {
+      "id": "f5b7",
+      "imageurl": "https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=612x612&w=0&k=20&c=A3w_a9q3Gz-tWkQL6K00xu7UHdN5LLZefzPDp-wNkSU=",
+      "pname": "walking",
+      "bname": "puma",
+      "pprice": "5000"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+      <script >
+
+
+function showForm(){
+  document.getElementById("addForm").style.display= "block"
+}
+
+function hideForm(){
+  document.getElementById("addForm").style.display= "none"
+
+}
+    </script>
+  </head>
+  <body>
+   <div style="display: flex;">
+     <div id="data">
+  
+    <div id="navbar1">
+    <nav>
+      <ul>
+        <li>
+           <a href="/Admin.html"><h3 >ADMIN<br> DASHBOARD</h3></a>
+          <a href="/Dashboard.html" id="pic1"><i class="fa-solid fa-film"></i>Dashboard</a>
+          <a href="/Article.html" id="pic2"><i class="fa-regular fa-newspaper"></i>Articles</a>
+          <a href="/Report.html" id="pic3"><i class="fa-solid fa-envelope"></i>Report</a>
+          <a href="/products.html" id="pic4"><i class="fa-solid fa-list"></i>Products</a>
+          <a href="/profile.html" id="pic5"><i class="fa-solid fa-user"></i>Profile</a>
+          <a href="/setting.html" id="pic6"><i class="fa-solid fa-gear"></i>Setting</a>
+          <a href="#" onclick="logout()" id="pic7"><i class="fa-solid fa-xmark"></i>Logout</a>
+
+        </li>
+      </ul>
+    </nav>
+    </div>
+    </div>
+
+   <div style="overflow-y: scroll;height: 100vh;align-items: center;margin:20px auto;">
+   <div>
+    <button onclick="showForm()">ADD PRODUCT</button>
+    <table  style="background-color: white;width: 70vw;" >
+      <thead style="position: sticky;top: 0;margin-bottom: 50px;background-color: white;">
+        <th>ID</th>
+        <th>IMAGE</th>
+        <th>PNAME</th>
+        <th>BNAME</th>
+        <th>PPRICE</th>
+        <th>DELETE</th>
+        <th>UPDATE</th>
+      </thead>
+      <tbody id="showdata" style="align-items: center;text-align: center;">
+      </tbody>
+      <div id="updatetabel" ></div>
+    </table>
+   </div>
+
+
+
+
+  <form id="addForm" style="position: absolute; top: 100px; left: 500px; z-index: 10; background-color: red;display: none; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <label for="image" style="display: block; margin-bottom: 5px; font-weight: bold;">Enter Image Url</label>
+    <input type="text" placeholder="enter image url here" id="image" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <label for="product" style="display: block; margin-bottom: 5px; font-weight: bold;">Product Name</label>
+    <input type="text" placeholder="Enter product name" id="product" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <label for="brand" style="display: block; margin-bottom: 5px; font-weight: bold;">Brand Name</label>
+    <input type="text" placeholder="Enter Brand name" id="brand" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <label for="price" style="display: block; margin-bottom: 5px; font-weight: bold;">Product Price</label>
+    <input type="text" placeholder="Enter the product price" id="price" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <button onclick="Addingdata();" style="background-color: #28a745; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">Add data</button>
+    <button onclick="hideForm();" style="background-color: white; color:red; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">Close</button>
+</form>
+
+    <script src="./index.js">
+
+
+function showForm(){
+  document.getElementById("addForm").style.display= "block"
+}
+    </script>
+
+  </body>
+</html>

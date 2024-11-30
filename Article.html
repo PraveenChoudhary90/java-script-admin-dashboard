@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body onload="checkUser()">
+    <div style="display: flex;">
+      <div id="data">
+        <div id="navbar1">
+          <nav>
+            <ul>
+              <li>
+                <a href="/Admin.html"><h3>ADMIN DASHBOARD</h3></a>
+                <a href="/Dashboard.html" id="pic1"
+                  ><i class="fa-solid fa-film"></i>Dashboard</a
+                >
+                <a href="/Article.html" id="pic2"
+                  ><i class="fa-regular fa-newspaper"></i>Articles</a
+                >
+                <a href="/Report.html" id="pic3"
+                  ><i class="fa-solid fa-envelope"></i>Report</a
+                >
+                <a href="/products.html" id="pic4"
+                  ><i class="fa-solid fa-list"></i>Products</a
+                >
+                <a href="/profile.html" id="pic5"
+                  ><i class="fa-solid fa-user"></i>Profile</a
+                >
+                <a href="/setting.html" id="pic6"
+                  ><i class="fa-solid fa-gear"></i>Setting</a
+                >
+                <a href="#" onclick="logout()" id="pic7"
+                  ><i class="fa-solid fa-xmark"></i>Logout</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div id="photo">
+        <img width="1050px" height="480px" src="https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGRhdGElMjBkYXNoYm9hcmR8ZW58MHx8MHx8fDA%3D" alt="">
+        <h1>
+      Admin dashboard in 360 Assessments lets you gather meaningful data about
+      every team in your organization in one place. You can create an exclusive
+      dashboard that can assess detailed performance reports and identify the
+      team’s potential competency.
+      </h1>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

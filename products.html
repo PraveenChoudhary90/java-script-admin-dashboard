@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body onload="checkUser()">
+   <div style="display: grid; grid-template-columns: auto auto auto auto; gap: 10px;" >
+     <div id="data" >
+  
+    <div id="navbar1" >
+    <nav>
+      <ul>
+        <li>
+           <a href="/Admin.html"><h3 >ADMIN DASHBOARD</h3></a>
+          <a href="/Dashboard.html" id="pic1"><i class="fa-solid fa-film"></i>Dashboard</a>
+          <a href="/Article.html" id="pic2"><i class="fa-regular fa-newspaper"></i>Articles</a>
+          <a href="/Report.html" id="pic3"><i class="fa-solid fa-envelope"></i>Report</a>
+          <a href="/products.html" id="pic4"><i class="fa-solid fa-list"></i>Products</a>
+          <a href="/profile.html" id="pic5"><i class="fa-solid fa-user"></i>Profile</a>
+          <a href="/setting.html" id="pic6"><i class="fa-solid fa-gear"></i>Setting</a>
+          <a href="#" onclick="logout()" id="pic7"><i class="fa-solid fa-xmark"></i>Logout</a>
+
+        </li>
+      </ul>
+    </nav>
+    </div>
+    </div>
+
+   <div style="overflow-y: scroll;height: 95vh;margin-top: 1rem; text-decoration: none; " class="container">
+      <div class="pic">
+      <a href="#"
+        ><img src="/pic1.webp" alt="" />
+        <h3>BOOTS SHOES</h3>
+        <h3>NIKE</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic2.jpeg" alt="" />
+        <h3>MINAM MEAGHAN</h3>
+        <h3>MACA</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic3.webp" alt="" />
+        <h3>TAJA SHOES</h3>
+        <h3>ADIDAS</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic4.webp" alt="" />
+        <h3>RUSS SNEAK</h3>
+        <h3>CUMPUS</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pci5.webp" alt="" />
+        <h3>BOOTS SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic6.webp" alt="" />
+        <h3>TRAINER SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic7.webp" alt="" />
+        <h3>BOOTS SHOES</h3>
+        <h3>MIKA</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic8.webp" alt="" />
+        <h3> BOOTS SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic9.jpeg" alt="" />
+        <h3> BOOTS SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic10.jpeg" alt="" />
+        <h3>BOOTS SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic11.webp" alt="" />
+        <h3>BOOTS SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic12.webp" alt="" />
+        <h3>BOOTS SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic13.jpeg" alt="" />
+        <h3>BOOTS SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic14.jpeg" alt="" />
+        <h3>BOOTS SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+        <div class="pic">
+      <a href="#"
+        ><img src="/pic15.jpeg" alt="" />
+        <h3>BOOTS SHOES</h3>
+        <h3>MACA</h3>
+        </a>
+        </div>
+        <div class="pic">
+       <a href="#"
+        ><img src="/pic16.jpeg" alt="" />
+        <h3>BOOTS SHOES</h3>
+        <h3>NIKE</h3>
+        </a>
+        </div>
+         <div class="pic">
+      <a href="#"
+        ><img src="/pic17.webp" alt="" />
+        <h3>TAJA SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+         <div class="pic">
+      <a href="#"
+        ><img src="/pic18.jpeg" alt="" />
+        <h3>TAJA SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+         <div class="pic">
+      <a href="#"
+        ><img src="/pic19.webp" alt="" />
+        <h3>TAJA SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+         <div class="pic">
+      <a href="#"
+        ><img src="/pic20.webp" alt="" />
+        <h3>TAJA SHOES</h3>
+        <h3>MACA</h3></a>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+
+  </body>
+</html>
