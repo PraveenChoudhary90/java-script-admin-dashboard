@@ -19,7 +19,7 @@ async function information() {
         "password": psw
     };
 
-    try {
+
         const response = await fetch(api, {
             method: 'POST',
             headers: {
@@ -36,9 +36,7 @@ async function information() {
 
         let storedData = localStorage.getItem("data");
         console.log(storedData);
-    } catch (error) {
-        console.error('There has been a problem with your fetch operation:', error);
-    }
+
 }
 
 
