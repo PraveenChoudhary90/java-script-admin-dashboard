@@ -120,7 +120,7 @@ body{
  #data #navbar1 nav ul li{
     display: flex;
     flex-direction: column;
-    background-color:grey;
+    background-color: rgb(255 122 127 );
     /* width: 250px; */
     height: 100vh;   
      
