@@ -13,6 +13,34 @@
       "lastname": "choudhary",
       "email": "pc852180@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "11db",
+      "firstname": "praveen",
+      "lastname": "choudhary",
+      "email": "pc852180@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "1aa6",
+      "firstname": "praveen",
+      "lastname": "choudhary",
+      "email": "pc852180@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "415e",
+      "firstname": "praveen",
+      "lastname": "choudhary",
+      "email": "pc852180@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "edd6",
+      "firstname": "praveen",
+      "lastname": "choudhary",
+      "email": "pc852180@gmail.com",
+      "password": "1234"
     }
   ],
   "product": [
@@ -120,6 +148,13 @@
       "pname": "walking",
       "bname": "puma",
       "pprice": "5000"
+    },
+    {
+      "id": "2f80",
+      "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ-WQDPA3VuspVnZWpyVujlFIpgq5GwYhCWg&s",
+      "pname": "trainer shoes",
+      "bname": "puma",
+      "pprice": "99"
     }
   ]
 }
