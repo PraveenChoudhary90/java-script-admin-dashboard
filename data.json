@@ -41,6 +41,27 @@
       "lastname": "choudhary",
       "email": "pc852180@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "4b35",
+      "firstname": "praveen",
+      "lastname": "choudhary",
+      "email": "pc852180@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "0144",
+      "firstname": "praveen",
+      "lastname": "choudhary",
+      "email": "pc852180@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "8a14",
+      "firstname": "praveen",
+      "lastname": "choudhary",
+      "email": "pc852180@gmail.com",
+      "password": "1234"
     }
   ],
   "product": [
