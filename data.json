@@ -62,6 +62,13 @@
       "lastname": "choudhary",
       "email": "pc852180@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "6933",
+      "firstname": "praveen",
+      "lastname": "choudhary",
+      "email": "pc852180@gmail.com",
+      "password": "1234"
     }
   ],
   "product": [
@@ -94,18 +101,11 @@
       "id": "4"
     },
     {
-      "id": "7",
       "imageurl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKhgaMMNho8z9ANexZALcYVfMZU3eUKW11Nvd-ez6Mth3sJ05V6dtP_v5tBXRkEH6y4fmpKaKtHQRFucgNTq-IedC7xowu_GxJjEBrpw9z7vOi6N4jcE0w",
       "pname": "shoes",
-      "bname": "nike",
-      "pprice": 999
-    },
-    {
-      "id": "11",
-      "imageurl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKhgaMMNho8z9ANexZALcYVfMZU3eUKW11Nvd-ez6Mth3sJ05V6dtP_v5tBXRkEH6y4fmpKaKtHQRFucgNTq-IedC7xowu_GxJjEBrpw9z7vOi6N4jcE0w",
-      "pname": "shoes",
-      "bname": "nike",
-      "pprice": 999
+      "bname": "adidas",
+      "pprice": "899",
+      "id": "11"
     },
     {
       "id": "12",
@@ -176,6 +176,13 @@
       "pname": "trainer shoes",
       "bname": "puma",
       "pprice": "99"
+    },
+    {
+      "id": "5c38",
+      "imageurl": "https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=612x612&w=0&k=20&c=A3w_a9q3Gz-tWkQL6K00xu7UHdN5LLZefzPDp-wNkSU=",
+      "pname": "gym shoes",
+      "bname": "puma",
+      "pprice": "199"
     }
   ]
 }
