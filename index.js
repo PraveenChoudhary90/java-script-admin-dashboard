@@ -28,9 +28,6 @@ async function information() {
             body: JSON.stringify(data)
         });
 
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
 
         localStorage.setItem("data", JSON.stringify(data));
 
